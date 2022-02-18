@@ -1,0 +1,236 @@
+/*====================
+=======Structure======
+======================*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+body{
+    background-color: hsl(226 63% 45%);
+    display:flex; 
+    flex-direction:column;    
+    margin: 1em auto;
+    min-height: 100vh;
+    width: 90%;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+main{
+    margin: 1em 0;
+    width: 100%;
+}
+
+footer{
+    margin-top: auto; 
+    width: 100%;
+}
+
+/*====================
+======Typography======
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 100%);
+}
+
+h1, h2, h3, h4 {
+    /* para cambiar el fondo tipográfico */
+    font-family: "Ubuntu";
+}
+
+h5, h6 {
+    font-family: "Ubuntu Condensed";
+}
+
+a, td, p, button{
+    font-family: "Ubuntu";
+}
+
+h1 {
+    /* size, es el tamaño que queremos-em */
+    font-size: 2.5em;
+    /*  */
+    font-weight: 600;
+    /* para poner o quitar por ejemplo el subrrayado? */
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:focus, a:hover {
+    outline: none;
+    outline-offset: 0;
+    text-decoration: none;
+}
+
+/*====================
+========Image=========
+======================*/
+
+img {
+    /* los : quiere decir que cuando me pongo encima del elemento hará tal cosa */
+    max-width: 100%;
+}
+
+/*====================
+========Logo=========
+======================*/
+
+.logo-titulo{
+    display:flex;
+    justify-content: start;
+}
+.logo{
+    width: max-content;
+}
+
+.logo svg{
+    height: 3em;
+    width: 3em;
+}
+
+.logo svg path{
+    fill:hsl(19, 100%, 50%);
+}
+
+/*====================
+========Title=========
+======================*/
+
+.titulo{
+    margin-left: 1em;
+}
+
+.titulo h1{
+    text-align: left;
+}
+
+/*====================
+========Menu=========
+======================*/
+
+.menu ul li {
+    display: inline;
+    color: white;
+}
+
+/*====================
+========Slider=========
+======================*/
+
+.slider{
+    width: 100%;
+}
+
+/*====================
+========Destacados===
+======================*/
+
+.destacados{
+    width: 100%;
+}
+
+.destacados-titulo{
+    width: 100%;
+}
+
+.destacados-titulo h2{
+    text-align: center;
+}
+
+.destacados-productos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.destacados-producto{
+    margin: 1em;
+    width: 25%;
+}
+
+.destacados-producto-imagen{
+    width: 100%;
+}
+
+.destacados-producto-titulo{
+    width: 100%;
+}
+
+.destacados-producto-descripcion{
+    width: 100%;
+}
+.servicios{
+    display:flex;
+justify-content: space-between;
+    width: 100%;
+}
+
+.servicios-texto{
+    width: 50%;
+}
+
+.servicios-texto p{
+    margin: 4em;
+    font-size: x-large;
+}
+
+.servicios-imagen{
+    width: 50%;
+}
+
+
+
+
+/*====================
+======Pie de página===
+======================*/
+
+.copyright{
+    margin-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.author{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media (min-width: 1920px) {
+
+   
+}
+
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:479px) {
+
+}
+
+
+
+
