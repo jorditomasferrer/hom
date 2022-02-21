@@ -13,7 +13,7 @@ body{
 
 header{
     display: flex;
-    height: 10vh;
+    height: 7vh;
     justify-content: space-between;
 }
 
@@ -89,7 +89,7 @@ a:focus, a:hover {
 
 img {
     /* los : quiere decir que cuando me pongo encima del elemento hará tal cosa */
-    max-width: 100%;
+    width: 100%;
 }
 
 /*====================
@@ -132,6 +132,8 @@ img {
 .menu ul li {
     display: inline;
     color: white;
+    font-size: 1.5em;
+    margin: 0 1em;
 }
 
 /*====================
@@ -151,6 +153,7 @@ img {
 }
 
 .destacados-titulo{
+    margin: 2em 0;
     width: 100%;
 }
 
@@ -180,9 +183,11 @@ img {
 .destacados-producto-descripcion{
     width: 100%;
 }
+
 .servicios{
     display:flex;
-justify-content: space-between;
+    justify-content: space-between;
+    margin: 2em 0;
     width: 100%;
 }
 
@@ -191,15 +196,13 @@ justify-content: space-between;
 }
 
 .servicios-texto p{
-    margin: 4em;
-    font-size: x-large;
+    margin: 2em;
+    font-size: 1.5em;
 }
 
 .servicios-imagen{
     width: 50%;
 }
-
-
 
 
 /*====================
@@ -228,7 +231,11 @@ justify-content: space-between;
 }
 
 @media (max-width:479px) {
+    .menu{
+        display: none;
+    }
 
+    
 }
 
 
