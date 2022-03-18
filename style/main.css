@@ -3,7 +3,7 @@
 ======================*/
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 body{
-    background-color: hsl(226 63% 45%);
+     background-color: hsla(32, 87%, 3%, 0.945);
     display:flex; 
     flex-direction:column;    
     margin: 1em auto;
@@ -27,11 +27,100 @@ footer{
     width: 100%;
 }
 
+
+/*====================
+========Columns=======
+======================*/
+
+.desktop-five-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-five-columns .column{
+    width: 18%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns .column{
+    width: 22%;
+}
+
+.desktop-three-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.desktop-three-columns .column{
+    width: 30%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.desktop-two-columns .column{
+    width: 48%;
+}
+
+.desktop-two-columns-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-aside .column-aside{
+    width: 20%;
+    
+}
+
+.desktop-two-columns-aside .column-main{
+    width: 75%;
+    
+}
+
+.desktop-two-columns-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-two-columns-inline .column{
+    width: 48%;
+}
+
+.desktop-two-columns-inline .column div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-one-column{
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+.filtros-desktop-two-columns-from{
+    float: right;
+}
+
 /*====================
 ======Typography======
 ======================*/
 
-h1, h2, h3, h4, h5, h6, a, p{
+h1, h2, h3, h4, h5, h6, a, p, span, label{
     color: hsl(0, 0%, 100%);
 }
 
@@ -204,6 +293,182 @@ img {
     width: 50%;
 }
 
+/*====================
+======Productos=======
+======================*/
+
+.productos{
+    margin: 2rem 0; 
+}
+
+.filtros{
+    margin-bottom: 2rem;
+}
+
+.filtros select{
+    float: right;
+}
+
+.producto{
+    margin-bottom: 1rem;
+}
+
+.galeria-productos-producto-titulo{
+
+}
+.galeria-productos-producto-lista{
+
+}
+
+.galeria-productos-producto-imagen{
+
+}
+
+.galeria-productos-producto-nombre{
+margin-bottom: 1em;
+}
+
+.galeria-productos-producto-nombre h3{
+    font-size: 1.3rem;
+}
+.galeria-productos-producto-precio{
+    margin-bottom: 0.5em;
+}
+
+.galeria-productos-producto-ver{
+    padding-top: 3rem;
+}
+
+.categorias-producto-lista{
+    color:white;
+    line-height: 2; 
+}
+
+.categorias-producto-lista ul li{
+    font-size: 1.5rem;
+}
+
+.galeria-productos-producto button{
+    line-height: 2,75;
+    margin-bottom: 2em;
+}
+
+/*====================
+======Producto=======
+======================*/
+    
+.producto-imagen-grande{
+
+}
+.producto-info-titulo´{
+
+}
+.producto-info-precio{
+    margin: 1rem 0;  
+}
+.producto-info-descripcion{
+
+}
+
+.producto-cantidad{
+    display: flex;
+}
+
+.producto-cantidad-boton{
+    font-size: 1.2rem;
+}
+
+.producto-añadir-cesta{
+    width: 4.5em;
+    margin-top: 1em;
+}
+
+.producto-comprar{
+margin-top: 1em ;
+
+}
+
+
+
+
+/*====================
+======Contacto=======
+======================*/
+
+.contacto-titulo{
+    margin: 2rem 0;
+    padding: 2em 0;
+}
+
+.contacto-titulo h2{
+    text-align:center;
+}
+
+.contacto-informacion-opcion{
+    margin-bottom: 4rem;
+}
+
+.contacto-informacion-opcion-imagen{
+    display: inline;
+    
+}
+
+.contacto-informacion-opcion-imagen svg{
+    width: 2em;
+}
+
+.contacto-informacion-opcion-imagen svg path{
+    fill:hsl(0, 0%, 100%)
+}
+
+.contacto-informacion-opcion-texto{
+    display: inline;
+}
+
+.contacto-informacion-opcion-texto span{
+    font-size: 1.5rem;
+}
+
+.contacto-formulario-elemento{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.contacto-formulario-elemento-etiqueta{
+    margin-bottom: 0.5rem;
+}
+
+.contacto-formulario-elemento-etiqueta label{
+    font-size: 1.2rem;
+}
+
+.contacto-formulario-elemento-input{
+    width: 100%;
+}
+
+.contacto-formulario-elemento-input input{
+    width: 100%;
+    padding: 0.5em 0;
+    border-radius: 0.5rem;
+    border: none;
+    
+}
+
+.contacto-formulario-elemento-input textarea{
+    border-radius: 0.5rem;
+    height: 20vh;
+    width: 100%;
+}
+
+.contacto-formulario-elemento-boton button{
+    background-color: hsl(19, 100%, 50%);
+    border: none;
+    border-radius: 0.5rem;
+    color:hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
 
 /*====================
 ======Pie de página===
@@ -230,12 +495,175 @@ img {
 
 }
 
+ /*====================
+    ========Versión Mobil=======
+    ======================*/
+
 @media (max-width:479px) {
+
+
+    /*====================
+    ========Columns=======
+    ======================*/
+
+    .mobile-five-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-five-columns .column{
+        width: 18%;
+    }
+
+    
+    .mobile-four-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-four-columns .column{
+        width: 22%;
+    }
+
+    .mobile-three-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-three-columns .column{
+        width: 30%;
+    }
+
+    .mobile-three-columns-start{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .mobile-three-columns-start .column{
+        width: inherit;
+    }
+
+    .mobile-two-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-two-columns .column{
+        width: 48%;
+    }
+
+    .desktop-two-columns-aside .column-aside{
+        display: none;
+    }
+
+    .mobile-two-columns-aside .column-main{
+        width: 100%;
+    }
+
+    .mobile-one-column{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mobile-one-column .column{
+        width: 100%;
+    }
+
+    .mobile-one-column-inline{
+        display: inherit;
+        width: 100%;
+    }
+    
+    .mobile-one-column-inline .column{
+        border-bottom: 1px solid hsl(0, 0%, 87%);
+        display: flex;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    
+    .mobile-one-column-inline .column div{
+        display: inherit;
+        margin-right: 1em;
+        width: 100%;
+    }
+
     .menu{
         display: none;
     }
 
+    .destacados-productos{
+        display: block;
+    }
     
+    .destacados-producto{
+        margin: 1em 0;
+        width: 100%;
+    }
+    
+    .destacados-producto-imagen{
+        width: 100%;
+    }
+    
+    .destacados-producto-titulo h3{
+        font-size: 1.7em;
+    }
+
+    .destacados-producto-titulo{
+        width: 100%;
+    }
+    
+    .destacados-producto-descripcion{
+        width: 100%;
+    }
+    
+    .servicios{
+    
+        display:table-cell;
+        
+        vertical-align:middle;
+        
+     }
+     
+     .servicios-texto{
+        margin: 1em;
+        width: 100%;
+    }
+    
+    .servicios-texto p{
+        margin: 2em;
+        font-size: 1.5em;
+    }
+
+    .servicios-imagen{
+        width: 100%;
+    
+    }
+
+    .contacto-formulario-elemento{
+        width: 98%;
+    }
+    
+    /*====================
+    ======Pie de página===
+    ======================*/
+    
+    .copyright{
+        margin-bottom: 1em;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .author{
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
 }
 
 

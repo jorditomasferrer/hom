@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+}
+
+.header-logo-titulo{
+    display:flex;
+    justify-content: start;
+}
+
+.header-logo{
+    width: max-content;
+}
+
+.header-logo svg{
+    height: 3em;
+    width: 3em;
+}
+
+.header-logo svg path{
+    fill:hsl(38, 66%, 46%);
+}
+
+.header-titulo{
+    margin-left: 1em;
+}
+
+.header-titulo h1{
+    text-align: left;
+}
+
+.header-menu ul li {
+    display: inline;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
