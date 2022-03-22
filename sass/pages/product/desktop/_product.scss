@@ -1,36 +1,20 @@
-.destacados{
-    width: 100%;
-}
-
-.destacados-titulo{
-    margin: 2em 0;
-    width: 100%;
-}
-
-.destacados-titulo h2{
-    text-align: center;
-}
-
-.destacados-productos{
+.producto-botones{
     display: flex;
-    justify-content: space-between;
+    margin: 1rem 0;
     width: 100%;
 }
 
-.destacados-producto{
-    margin: 1em;
-    width: 25%;
+.producto-boton{
+    margin-right: 2rem;
+    width: 40%;
 }
 
-.destacados-producto-imagen{
-    width: 100%;
+.producto-boton button{
+    background-color: #c38a28;
+    padding: 0.5rem 2rem;
 }
 
-.destacados-producto-titulo{
-    margin: 0.5rem 0 1rem 0;
-    width: 100%;
-}
-
-.destacados-producto-descripcion{
-    width: 100%;
+.producto-boton button svg{
+    height: 1.5rem;
+    width: 1.5rem;
 }

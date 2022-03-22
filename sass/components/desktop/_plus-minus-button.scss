@@ -1,36 +1,4 @@
-.destacados{
-    width: 100%;
-}
-
-.destacados-titulo{
-    margin: 2em 0;
-    width: 100%;
-}
-
-.destacados-titulo h2{
-    text-align: center;
-}
-
-.destacados-productos{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.destacados-producto{
-    margin: 1em;
-    width: 25%;
-}
-
-.destacados-producto-imagen{
-    width: 100%;
-}
-
-.destacados-producto-titulo{
-    margin: 0.5rem 0 1rem 0;
-    width: 100%;
-}
-
-.destacados-producto-descripcion{
-    width: 100%;
+.producto-cantidad-boton button{
+    background-color: #c38a28;
+    cursor: pointer;
 }

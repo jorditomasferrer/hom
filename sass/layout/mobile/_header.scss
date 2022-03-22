@@ -41,6 +41,15 @@ header{
 	.header-menu.active{
 		top: 0;
 	}
+
+	.header-menu ul li{
+		margin: 10% 30%;
+	}
+
+	.header-menu ul li a{
+		color: hsl(0, 0%, 0%);
+		font-size: 2rem;
+	}
 	
 	.header-menu-hamburger{
 		margin-left: auto;
